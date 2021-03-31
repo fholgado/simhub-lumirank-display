@@ -1,8 +1,10 @@
 # Lumirank Screen for ACC
-### Original work by `Bregfer`, with some code updates and tweaks by `@fholgado`. Licensed under `cc-nc`.
+### Original work by [u/Bregfer](https://www.reddit.com/user/Bregfer/), with some code updates and tweaks by `@fholgado`. Licensed under `cc-nc`.
 
 ## Description
 This is a combination of a 3D printed case, a Nextion display, an Arduino board, and some code that runs on [SimHub](https://www.simhubdash.com/) that enables you to have a dedicated Lumirank screen for your sim rig. The Lumirank display is used in race cars to inform the driver of current flags on course. This currently only works for Assetto Corsa Competizione, although it could probably be made to work for iRacing and other games that have current flag telemetry data.
+
+This was originally published by [u/bregfer](https://www.reddit.com/user/Bregfer/) on [Reddit](https://www.reddit.com/r/simracing/comments/k8ok6q/diy_lumirank_flag_display_files_in_comments/).
 
 ![Lumirank screen on Bregfer's NSX rig](https://dl.dropboxusercontent.com/s/1whrf0awdydwq2i/IMG_20210315_221242233.jpg)
 
