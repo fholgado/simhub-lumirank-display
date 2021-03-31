@@ -1,0 +1,100 @@
+{
+  "BindingsEx": {},
+  "RolesEx": {},
+  "ClickActionsEx": {},
+  "HotSpots": [],
+  "PagesMappings": [
+    {
+      "PageName": "readyscreen",
+      "ConditionToPage": {
+        "Expression": null
+      },
+      "InGame": true,
+      "Idle": true,
+      "Skip": false
+    },
+    {
+      "PageName": "blackflag",
+      "ConditionToPage": {
+        "Expression": "isnull([ACCCDS_Graphics.ACC_ORANGE_FLAG],0)"
+      },
+      "InGame": true,
+      "Idle": false,
+      "Skip": false
+    },
+    {
+      "PageName": "whiteflag",
+      "ConditionToPage": {
+        "Expression": "[ACCCDS_Graphics.globalWhite]"
+      },
+      "InGame": true,
+      "Idle": false,
+      "Skip": false
+    },
+    {
+      "PageName": "blueflag",
+      "ConditionToPage": {
+        "Expression": "[Flag_Blue]"
+      },
+      "InGame": true,
+      "Idle": false,
+      "Skip": false
+    },
+    {
+      "PageName": "chequeredflag",
+      "ConditionToPage": {
+        "Expression": "[Flag_Checkered]"
+      },
+      "InGame": true,
+      "Idle": false,
+      "Skip": false
+    },
+    {
+      "PageName": "doubleyellow",
+      "ConditionToPage": {
+        "Expression": "[Flag_Yellow]"
+      },
+      "InGame": true,
+      "Idle": false,
+      "Skip": false
+    },
+    {
+      "PageName": "greenflag",
+      "ConditionToPage": {
+        "Expression": "if([GameRawData.Graphics.Flag]='ACC_GREEN_FLAG',1,0)"
+      },
+      "InGame": true,
+      "Idle": false,
+      "Skip": false
+    },
+    {
+      "PageName": "sector1",
+      "ConditionToPage": {
+        "Expression": "isnull([ACCCDS_Graphics.globalYellow1],0)"
+      },
+      "InGame": true,
+      "Idle": false,
+      "Skip": false
+    },
+    {
+      "PageName": "sector2",
+      "ConditionToPage": {
+        "Expression": "isnull([ACCCDS_Graphics.globalYellow2],0)"
+      },
+      "InGame": true,
+      "Idle": false,
+      "Skip": false
+    },
+    {
+      "PageName": "sector3",
+      "ConditionToPage": {
+        "Expression": "isnull([ACCCDS_Graphics.globalYellow3],0)"
+      },
+      "InGame": true,
+      "Idle": false,
+      "Skip": false
+    }
+  ],
+  "RefreshDelaysEx": {},
+  "VirtualPages": []
+}
